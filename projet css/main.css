@@ -1,0 +1,546 @@
+body{
+
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white; /* Couleur bleue allemande */
+  color: black; /* Couleur blanche */
+  padding: 20px;
+}
+nav {
+  display: flex;
+
+}
+nav img {
+  width: 20%;
+  height: auto;
+  margin-left: 10%;
+
+}
+.navbar{
+  margin-left: 45%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  font-size: smaller;
+  position: inherit;
+}
+nav li {
+  margin: 0;
+}
+nav a {
+  color: rgb(142, 141, 143); /* Couleur blanche */
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+nav a:hover {
+  background-color: rgb(16, 235, 180);
+  color: black;
+}
+.navmain {
+
+}
+.navmain img {
+  width: 40px;
+  height: auto;
+  margin-left: 50%;
+  margin-top: 3%;
+}
+.vay {
+  margin-top: 3%;
+  margin-left: 20%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(16, 235, 180);
+}
+.drill {
+  color: rgb(142, 141, 143);
+  display: block;
+  margin-left: 12%;
+  font-size: large;
+}
+.gazo {
+  color: rgb(142, 141, 143);
+  display: block;
+  margin-left: 50%;
+  margin-top: -8%;
+  font-size: large
+  }
+  .rapfr {
+    display: flexbox;
+    border: 1px solid rgb(16, 235, 180);
+    height: 300px;
+    width: 23%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color:  rgb(16, 235, 180);
+    color: white;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px 7px 7px 7px;
+
+
+  }
+  .drillfr{
+    font-size: 150%;
+    margin-left: 15%;
+  }
+  .drillfr img {
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  h2 {
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: xx-large;
+
+  }
+  .asap {
+    margin-top: 15%;
+    margin-left: 8%;
+    color: rgb(16, 235, 180);
+  }
+  .domain-switcher {
+    background-color: rgb(16, 235, 180);
+    color: white;
+  }
+option {
+  background-color: white;
+  color: black;
+
+}
+.booba {
+  display: flexbox;
+    border: 1px solid rgb(5, 134, 255);
+    height: 300px;
+    width: 23%;
+    margin-left: 40%;
+    margin-top: -22.4%;
+    background-color:  rgb(5, 134, 255);
+    color: white;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px 7px 7px 7px;
+
+}
+.futur img {
+  margin-left: 5%;
+  margin-top: 10%;
+
+} 
+.futur h2 {
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: xx-large;
+}
+.futur {
+  font-size: 150%;
+    margin-left: 15%;
+}
+.duc {
+  margin-top: 15%;
+  margin-left: 8%;
+  color: rgb(16, 235, 180);
+
+}
+.ninho {
+  display: flexbox;
+  border: 1px solid rgb(47, 47, 48);
+  height: 300px;
+  width: 23%;
+  margin-left: 65%;
+  margin-top: -22.4%;
+  background-color:  rgb(47, 47, 48);
+  color: white;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 7px 7px 7px 7px;
+}
+.jefe img {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.jefe h2 {
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: xx-large;
+}
+.jefe {
+  font-size: 150%;
+  margin-left: 15%;
+}
+.destin {
+  margin-top: 15%;
+  margin-left: 8%;
+  color: rgb(16, 235, 180);
+
+}
+.pnl {
+  margin-top: 4%;
+  margin-left: 15%;
+}
+.ademo {
+  color: rgb(16, 235, 180);
+  font-weight: 100;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nos a {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 70%;
+  margin-top: -12%;
+  width: 50px;
+  height: 50px;
+
+}
+.nos a:hover {
+  color: rgb(16, 235, 180);
+}
+.nos a svg {
+  color:rgb(142, 141, 143);
+  margin-top: 1%;
+  margin-block: 00%;
+}
+.onizuka {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 70%;
+  margin-top: -09%;
+  width: 50px;
+  height: 50px;
+}
+.kratos {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 50%;
+  margin-top: -4%;
+  width: 50px;
+  height: 50px;
+}
+.naha {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 50%;
+  margin-top: 5%;
+  width: 50px;
+  height: 50px;
+}
+.bene {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 40%;
+  margin-top: -13%;
+  width: 50px;
+  height: 50px;
+}
+.buga {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 40%;
+  margin-top: 3%;
+  width: 50px;
+  height: 50px;
+}
+.keke {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 25%;
+  margin-top: -13%;
+  width: 50px;
+  height: 50px;
+}
+.yaya {
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-left: 25%;
+  margin-top: 0%;
+  width: 50px;
+  height: 50px;
+}
+.niska {
+  display: flex;
+  border: 0px solid rgb(16, 235, 180);
+  background-color: rgb(221, 252, 244);
+  height: 600px;
+  width: absolute;
+  margin-top: 6%;
+}
+.charo h1 {
+  color: rgb(16, 235, 180);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: inherit;
+  margin-top: 12%;
+  margin-left: 30%;
+}
+.charo h4 {
+  color: rgb(142, 141, 143);
+  font: optional;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.charo img {
+  margin-top: 5%;
+  margin-left: 30%;
+
+}
+.reseau {
+  display: flexbox;
+  border: 0px solid white;
+  background-color: white;
+  height: 250px;
+  width: 220px;
+  margin-top: 1%;
+  margin-left: 30%;
+}
+.reseau img {
+  height: 40px;
+  width: 40px;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+.reseau h1 {
+  margin-top: 5%;
+  margin-left: 18%;
+  font-weight: inherit;
+  font-size: x-large;
+  color: rgb(16, 235, 180);
+}
+.reseau h4 {
+  margin-top: 5%;
+  margin-left: 20%;
+  font-weight: inherit;
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-right: 10%;
+}
+.sale {
+  display: flexbox;
+  border: 0px solid white;
+  background-color: white;
+  height: 250px;
+  width: 220px;
+  margin-top: 4%;
+  margin-left: -34%;
+}
+.sale img {
+  height: 40px;
+  width: 40px;
+  margin-top: 15%;
+  margin-left: 45%;
+
+}
+.sale h2{
+  margin-top: -1%;
+  margin-left: 18%;
+  font-weight: inherit;
+  font-size: x-large;
+  color: rgb(16, 235, 180);
+}
+.sale h4 {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-weight: inherit;
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-right: 10%;
+}
+
+.mechant {
+  display: flexbox;
+  border: 0px solid white;
+  background-color: white;
+  height: 250px;
+  width: 220px;
+  margin-top: 24%;
+  margin-left: -16.5%;
+}
+.mechant img {
+  height: 40px;
+  width: 40px;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+.mechant h1{
+  margin-top: -1%;
+  margin-left: 25%;
+  font-weight: inherit;
+  font-size: x-large;
+  color: rgb(16, 235, 180);
+}
+.mechant h4 {
+  margin-top: 5%;
+  margin-left: 17%;
+  font-weight: inherit;
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-right: 10%;
+} 
+.ni {
+  display: flexbox;
+  border: 0px solid white;
+  background-color: white;
+  height: 250px;
+  width: 220px;
+  margin-top: 21%;
+  margin-left: 1.5%;
+}
+.ni img {
+  height: 40px;
+  width: 40px;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+.ni h1 {
+  margin-top: -1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-weight: inherit;
+  font-size: x-large;
+  color:   rgb(16, 235, 180);
+}
+
+.ni h4 {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: inherit;
+  color: rgb(142, 141, 143);
+  font-size: smaller;
+  margin-right: 10%;
+}
+.canabasse {
+  display: flex;
+  border: 0px solid rgb(16, 235, 180);
+  background-color: white;
+  height: 100px;
+  width: absolute;
+  margin-top: 0%;
+
+}
+.buzzlab {
+  display: block;
+  color: rgb(16, 235, 180);
+  font-weight: inherit;
+  font-style: normal;
+  font-size: large;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-right: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buzzlab h5 {
+  color: rgb(142, 141, 143);
+}
+.ziak {
+  display: grid;
+  grid-template-columns: 350px 350px 400px;
+  grid-template-rows: 330px 330px;
+  border: 1px;
+  border-color: black;
+  height: 1000px;
+  width: absolute;
+  margin-top: 150px;
+  margin-left: 150px;
+  
+}
+.akimbo {
+display: flexbox;
+border: 0px;
+border-color: black;
+background-color: white;
+width: 200px;
+height: 200px;
+border-radius: 5px;
+}
+.akimbo a {
+  color: rgb(142, 141, 143);
+  border: 1px solid white;
+  background-color: aliceblue;
+  height: 300px;
+  width: auto;
+}
+.akimbo img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px 5px 0 0;
+}
+.akimbo a:hover {
+  color: rgb(142, 141, 143);
+  width: auto;
+  height: absolute;
+}
+.akimbo button {
+  margin-top: 0;
+  margin-left: 5px;
+color: white;
+background-color: blue;
+border-color: blue;
+}
+.tiakola {
+  display:  flex;
+  height: 300px;
+  width: absolute;
+}
+.gasolina {
+  display: block;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+.gasolina h1 {
+  font-size: xx-large;
+  color: rgb(142, 141, 143);
+  font-weight: inherit;
+}
+.gasolina button {
+  color: white;
+background-color: blue;
+border-color: blue;
+width: auto;
+height: 20%;
+margin-left: 30%;
+appearance: none;
+}
+.gasolina button a {
+  
+  color: white;
+background-color: blue;
+border-color: blue;
+width: auto;
+height: 20%;
+}
+footer {
+  display: block;
+}
+footer h5 {
+  margin-left: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  color: rgb(142, 141, 143);
+}
+footer h4 {
+  margin-left: 45%;
+  color:  rgb(142, 141, 143);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  font-size: smaller;
+}
+footer h6 {
+  margin-left: 47%;
+  color: rgb(142, 141, 143);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+}
